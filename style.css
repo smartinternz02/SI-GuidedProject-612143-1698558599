@@ -1,0 +1,160 @@
+
+/* Style the form header */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the form */
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style form labels and inputs */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+body{
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.left{
+    background-color: rgb(110, 107, 107);
+}
+.right{
+    background-image: url(/static/bgimage.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.head{
+    position: absolute;
+    top: 40%;
+    margin-left: 350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.head>h1{
+    font-size: 50px; 
+    color: white;
+}
+.one{
+    display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.one>img{
+    width: 20px;
+    height: 20px;
+  margin: 15px;
+  margin-top: 40px;
+}
+.home>img , .prediction>img , .about>img , .contact>img{
+    width: 20px;
+    height: 20px;
+  margin: 15px;
+}
+.home , .prediction , .about , .contact{
+    display: flex;
+    list-style: none;
+    background-color:rgb(110, 107, 107) ;
+}
+ .contact>h3{
+ color: white;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.two{
+    margin-top: 80px;
+}
+.matter{
+    margin: 40px;
+}
+.matter>p{
+font-size: 21px;
+color: black;
+}
+.matter>h1{
+    color: black;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.images>img{
+    height: 200px;
+    width: 300px;
+}
+#prediction-result{
+    background-image: url(/static/bgimage.jpg);
+    background-size: cover;
+  height: 100vh;
+  top:0%;
+}
+
+.form{
+    background-color: transparent;
+    border: #007bff;
+  position: absolute;
+  left: 65%;
+}
+.form>label{
+    color: white;
+}
+h1{
+    color: white;
+    top: 0%;
+    margin-left: 15px;
+    font-size: 50px;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+p{
+    margin-left: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+.stock{
+    height: 100vh;
+    background-image:url(/static/bgimage.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.stock>a{
+    list-style: none;
+    color: yellow;
+}
